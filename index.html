@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: blue;
+}
+
+.hero{
+    background:url('https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1200')
+    center/cover no-repeat;
+    height:400px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero-text{
+    background:rgba(0,0,0,0.5);
+    padding:20px;
+    border-radius:10px;
+    color:white;
+    
+}
+
+.card{
+    transition:0.3s;
+    height: 450px;
+    background-color: red;
+    
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+footer{
+    margin-top:50px;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Amazon Navbar</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .navbar{
+            background-color:#131921;
+        }
+
+        .navbar-brand,
+        .nav-link{
+            color:white !important;
+        }
+
+        .search-box{
+            width:700px;
+        }
+
+        .cart{
+            font-size:20px;
+            color:white;
+            text-decoration:none;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="#">Amazon</a>
+
+        <!-- Left Side -->
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+        </ul>
+
+       
+
+    </div>
+</nav>
+
+      
+
+        <form class="d-flex mx-auto">
+            <input class="form-control search-box"
+                   type="search"
+                   placeholder="Search Amazon">
+
+            <button class="btn btn-warning ms-2">
+                Search
+            </button>
+        </form>
+
+        <ul class="navbar-nav">
+
+            <li class="nav-item">
+                <a class="nav-link" href="Accounts.html">
+                    Account
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="orders.html">
+                    Orders
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="cart nav-link" href="cart.html">
+                    🛒 Cart
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+</nav>
+
+</body>
+</html>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <form class="d-flex mx-auto w-50">
+                    <input class="form-control" type="search" placeholder="Search Amazon">
+                    <button class="btn btn-warning ms-2">Search</button>
+                </form>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="Accounts.html">
+                         <span >Account</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="orders.html">Orders</a>  
+                    </li>
+                    <li class="nav-item">
+                        <a href="Card.html">Card</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Welcome to Amazon</h1>
+            <p style="color: yellow;">Shop Electronics, Fashion, Mobiles & More</p>
+        </div>
+    </section>
+
+    <!-- Product Cards -->
+    <div class="container my-5">
+        <div class="row g-4">
+
+            <div class="col-md-3">
+                <div class="card shadow">
+                    <img src="https://m.media-amazon.com/images/I/7101h6htEgL._AC_SR290,290_.jpg" style="margin-top: 20px;" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 style="margin-top:60px;">Mobile Phones</h5>
+                        <a href="mobile.html">
+                            <button style="background-color: yellow;">Shop Now</button>
+                        </a>
+                        
+                        
+                  </button>
+                  
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card shadow">
+                    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSmvCnjM47uEi5lc4pN9RSgxdmhj_W_nUC5aTnAy4BGRpLFVjz-h3vYLgDAiRHUCCyt2WOhPpoIcUIqGSIgIJayMVu381wmElTuaQ9grsNG37_zr6zmA_v9_w" style="margin-top: 20px;" height="270px" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 style="margin-top:50px;">Laptops</h5>
+                        <a href="laptop.html">
+                            <button style="background-color: yellow;">Shop Now</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card shadow">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRGhNIc4b652mQHtZLGECoH7VuCM1hwCS5_La1AtgyN-QYd1CzqXdio9cT&s=10" style="margin-top:40px;"height=250px;>
+                    <div class="card-body text-center">
+                        <h5 style="margin-top: 45px;">Fashion</h5>
+                       <a href="fashion.html">
+                            <button style="background-color: yellow;">Shop Now</button>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card shadow">
+                    <img src="https://m.media-amazon.com/images/I/31rlI3PakBL.AC_SX250.jpg"width=160px; style="margin: 40px;"height=250px;"card-img-top">
+                    <div class="card-body text-center">
+                        <h5 style="margin-top: 4px;">Home Appliances</h5>
+                        <a href="Home appliances.html">
+                            <button style="background-color: yellow;">Shop Now</button>
+                        </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-3">
+        <p>© 2026 Amazon Clone | Bootstrap Project</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
